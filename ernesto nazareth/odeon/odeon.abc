@@ -1,0 +1,38 @@
+X:1
+T:Odeon
+C:Ernesto Nazareth
+Z:Hubaldo Mauricio
+%%score ( 1 2 )
+L:1/16
+M:2/4
+I:linebreak $
+K:F
+V:1 treble-8 nm="Classical Guitar" snm="Guit."
+V:2 treble-8 
+L:1/8
+V:1
+ A_AG |:S z2 [Ada]2 z2 [A^cg]2 | z2 [Adf]2 z2 [^FAd]2 | z2 [GBd]2 z2 [^Fcd]2 | z2 [GBd]2 z4 | %5
+ z2 [Bd]2 z2 [Bd]2 | z2 [GB]2 z2 [_AB]2 | z2 [G!courtesy!=A]2 z Af^c | edfd z A_AG | %9
+ z2 [Ada]2 z2 [A^cg]2 | z2 [Adf]2 z2 [^FAd]2 | z2 [GBd]2 z2 [^Fcd]2 | z2 [GBd]2 z2 [B_d]2 | %13
+ z [^cgb]2[cga] z [gc'f']2[gc'e'] | z [fae']2[fad'] z [gc']2b | %15
+ z [fb]2[fa] z [G^cf]2e!dacoda!!dacoda! ||1 d4 z A_AG :|2 d4 z{ce} d2c |: =B[fa]2[dg] _B[ea]2[eg] | %19
+ A[cg]2[cf] z{fa} g2f | e[bd']2[gc'] e[bd']2[gc'] | _e[ad']2[ac'] z [ead']2[eac'] | %22
+ z [dgc']2[dgb] z [_da]2g | z [Ag]2[Af] z [F_Ae]2{/d}d |1 z [EGd]2c z [EG]2[E^G] | %25
+ A{EG}F2D C{ce}d2c :|2 z [EGc]2=B _BA2G || F2[Acf]2 z A_AG!D.S.! ||O d4 z ccc |: [Ac]CC[Ac] z ccc | %30
+ [Bc]CC[Bc] z ccc | z [ce][ce][ce] z [Bd][Bd][Bd] | z [Ac][Ac][Ac] z ccc | [Ac]CC[Ac] z ccc | %34
+ [Bc]CC[Bc] z ccc | z [Bea][Bea][Bea] z [Beg][Beg][Beg] | z [Ac][Ac][Ac] z aaa | %37
+ z [c_eb][ceb][ceb] z [cea][cea][cea] | z [Bda][Bda][Bda] z [Bdg][Bdg][Bdg] | %39
+ z [A^ca][Aca][Aca] z [Acg][Acg][Acg] | z [Adg][Adg][Adg] z [Adf][Adf][Adf] | %41
+ z [_Ae][Ae][Ae] z [Ad][Ad][Ad] |1 z [FAc][FAc][FAc] z [FA][FA][FA] | %43
+ z [FA][FA][FA] z [FG][FG][FG] | z [EG][EG][Gc] z ccc :|2 A,CFA cfac' || e'd'ac' beag | %47
+{/f} [cf]2F2 z A_AG || [Ad]4 [fad']2 z2 |] %49
+V:2
+ z/ z |: F>F E>E | D>D C>C | B,>B, A,>A, | G,>B, D/G/B/d/ |{/D} !slide!G>G F>F | E>E D>D | %7
+ ^C>C A, z | D2 A,/ z/ z | F>F E>E | D>D C>C | B,>B, A,>A, | G,>G, F,>F, | E,2 A,2 | D2 G>^G | %15
+ A2 A,2 ||1 D/A,A,/ D/ z/ z :|2 D/A,A,/ D/ z/ z |: G,2 G,2 | F,2 A,2 | C2 C2 | F2 CF | B,2 B,=B, | %23
+ C2 =B,>d |1 !courtesy!_B,2 CC | F/FD/ C2 :|2 !courtesy!_B,>=B CC || F,F z2 || D/A,A,/ D z |: %29
+ _G,2 G, z | !courtesy!=G,2 G, z | C2 B,E | F,2 A,2 | _G,2 G, z | !courtesy!=G,2 G, z | C2 B,2 | %36
+ F,2 A,F | _G2 G2 | G,2 G,D | E,2 G,A, | D2 F,2 | =B,2 B,F |1 C2 CC | =B,2 B,B, | %44
+ !courtesy!_B,>E B, z :|2 z2 z2 || z2 z2 | AF z2 || D/A,A,/ C z |] %49
+
+
