@@ -1,0 +1,54 @@
+X:1
+T:Odeon
+C:Ernesto Nazareth
+Z:Hubaldo Mauricio
+%%score ( 1 2 )
+L:1/16
+M:2/4
+I:linebreak $
+K:F
+V:1 treble-8 nm="Classical Guitar" snm="Guit."
+V:2 treble-8 
+L:1/8
+V:1
+"_grazioso"!mf! !2!A!1!_AG |:S z2 !1!!3!!4![Ada]2"^1/2C2" z2 !2![A^cg]2 | %2
+ z2 !2!!3!!1![Adf]2 z2 !4!!1!!3![^FAd]2 |"^C3" z2 !3![GBd]2 z2 !2!!4![^Fcd]2 | %4
+ z2 !3![GBd]2!<(! z4 |!ped! z2!<)! !2!!1![Bd]2 z2 !4!!2![Bd]2 | %6
+ z2 !4![GB]2 z2 !4!!1![_AB]2!ped-up! | z2 !4!!1![G!courtesy!=A]2 z !2!A!1!f!3!^c | %8
+ e!3!d!1!f!3!d z !2!A!1!_AG | z2 !1!!3!!4![Ada]2"^1/2C2" z2 !2![A^cg]2 | %10
+ z2 !2!!3!!1![Adf]2 z2 !4!!1!!3![^FAd]2 |"^C3" z2 !3![GBd]2 z2 !2!!4![^Fcd]2 | %12
+ z2 !4![GBd]2 z2 !3!!2![B_d]2 | %13
+!f! z !2!!4!!3![^cgb]2!1![cga] z"^1/2C12" !3!!2![g!courtesy!^c'f']2[gc'e'] | %14
+ z"^1/2C10" !3![fae']2[fad'] z !2!!3![gc']2!3!b | %15
+ z !2!!3![fb]2[fa] z !2![G^cf]2e!dacoda!!dacoda! ||1 !3!d4 z!mf! !2!A!1!_AG :|2 %17
+ !4!d4 z"^C3"{!3!c!4!e} d2c |:!f! !2!=B"^expressivo"!4!!3![fa]2[dg] _B!3!!4![ea]2[eg] | %19
+"^C1" !2!A!3![cg]2[cf] z"^1/2C8"{!3!f!4!a} g2f |"^C8" !2!e!4!!3![bd']2[gc'] e[bd']2[gc'] | %21
+ _e!3!!4![ad']2[ac'] z [ead']2[eac'] |"^C6" z !2!!3!!4![dgc']2[dgb] z !4![_da]2!4!g | %23
+ z !2!!4![Ag]2[Af] z !3!!4![F_Ae]2{/d}!4!d |1"^C5" z !3!!4![EGd]2c z [EG]2!2![E^G] | %25
+ !2!A{!4!E!open!G}!3!F2!open!D"^C3" C{!3!c!4!e}d2!3!c :|2"^C5" z !3![EGc]2!open!=B !2!_B!2!A2G || %27
+"^C1" !4!F2!2![Acf]2 z!mf! !2!A!1!_AG!D.S.! ||O !4!d4 z !1!ccc |: %29
+!ff!"_brillante" !3!!1![Ac]!4!CC!>(![Ac]!>)! z !1!ccc | !4!!1![Bc]!3!CC!>(![Bc]!>)! z !1!ccc | %31
+ z !1![ce][ce][ce]"^C1" z !3!!4![Bd][Bd][Bd] | z !2![Ac][Ac][Ac] z !1!ccc | %33
+ !3!!1![Ac]!4!CC!>(![Ac]!>)! z !1!ccc | !4!!1![Bc]!3!CC!>(![Bc]!>)! z !1!ccc | %35
+"^C3" z !3!!4![Bea][Bea][Bea] z [Beg][Beg][Beg] | %36
+"^C1" z !2![Ac][Ac]!>(![Ac]!>)! z"^1/2C3" !4!a"_lusin"aa | %37
+"_grando""^1/2C4" z !2!!4![c_eb][ceb][ceb] z !3![cea][cea][cea] | %38
+"^C3" z !4![Bda][Bda][Bda] z [Bdg][Bdg][Bdg] | z"^1/2C2" !4![A^ca][Aca][Aca] z !3![Acg][Acg][Acg] | %40
+ z !2!!3!!4![Adg][Adg][Adg]"^C1" z [Adf][Adf][Adf] | z !1![_Ae][Ae][Ae] z !4![Ad][Ad][Ad] |1 %42
+ z"^C1" !4!!2![FAc][FAc][FAc] z [FA][FA][FA] | z !3!!2![FA][FA][FA] z [FG][FG][FG] | %44
+ z !3![EG][EG]!2![Gc] z ccc :|2!<(! !open!A,"^C8"CF!4!A !2!c!3!f!4!ac'!<)! || %46
+ (!4!e'"^1/2C10"d')a!4!c' !2!b!open!e!4!a!2!g |{/f} !1!!2![cf]2!4!F2 z!mf! !2!A!1!_AG || %48
+ !2!!3![Ad]4"^1/2C10"!>(! [fad']2!>)! z2 |] %49
+V:2
+ z/ z |: !2!F>F E>E | D>D C>C | !4!B,>B, !3!A,>A, | G,>!4!B, !3!D/!4!G/B/d/ | %5
+{/!4!D} !slide!!4!G>G !3!F>F | !3!E>E !3!D>D | !3!^C>C A, z | D2 A,/ z/ z | !2!F>F E>E | %10
+ D>D !2!C>C | !4!B,>B, !3!A,>A, | G,>G, !1!F,>F, | E,2 A,2 | D2 !open!G>!2!^G | !4!A2 A,2 ||1 %16
+ D/!>(!A,!>)!A,/ D/ z/ z :|2 D/!>(!A,!>)!A,/ D/ z/ z |: G,2 G,2 | F,2 A,2 | C2 C2 | F2 CF | %22
+ B,2 B,!2!=B, | !3!C2 !2!=B,>d |1 !2!!courtesy!_B,2 !4!CC | !3!F/FD/ C2 :|2 %26
+ !2!!courtesy!_B,>=B !3!C!3!C || F,F z2 || D/!>(!A,!>)!A,/ D z |: !2!_G,2 !2!G, z | %30
+ !2!!courtesy!=G,2 G, z | !3!C2 B,E | F,2 A,2 | !2!_G,2 !2!G, z | !2!!courtesy!=G,2 !2!G, z | %35
+ C2 !4!B,2 | F,2 A,F | _G2 G2 | G,2 G,!3!D | E,2 !2!G,!open!A, | D2 F,2 | !2!=B,2 !2!B,!3!F |1 %42
+ !3!C2 CC | !1!=B,2 B,B, | !courtesy!_B,>E B, z :|2 z2 z2 || z2 z2 | !3!AF z2 || %48
+ D/!>(!A,A,/!>)! D z |] %49
+
+
