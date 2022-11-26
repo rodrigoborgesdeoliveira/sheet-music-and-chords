@@ -1,0 +1,22 @@
+X:1
+T:Bella Ciao
+Z:Fábio Lima
+%%score ( 1 2 )
+L:1/8
+M:4/4
+I:linebreak $
+K:G
+V:1 treble-8 nm="Classical Guitar" snm="Guit."
+V:2 treble-8 
+L:1/4
+V:1
+|: !4!ee!4!de !4!ceBe | eede cBe!2!f | [GBg]e-eB- BBe!2!f | [GBg]e-eB- BBef | [GBg]Gfe [GBg]Gfe | %5
+"^C7" bfbf bb!4!ab |"^1/2C5" !4![cec']a-ae z !3!!2![c'e']!3!!1![bd']!3!!1![ac'] | %7
+ !4![GBe']!1!b-bG- G!2!!1![gb]!3!!2![fa]!3!!2![eg] |"^C7" [^df]Abd fdb z :| %9
+ (e'/d'/c'/b/) (d'/c'/b/a/) (c'/b/a/g/) (b/a/g/f/) | %10
+ (a/g/f/e/) (d/e/f/)(g/ a/b/)(c'/d'/ !fermata!e'2) | [fa^d']4 !fermata![gbe']4 |] %12
+V:2
+|: E, !1!D !1!C !1!B, | !1!E D C B, | E, B, E, B, | E, B, E, B, | E, B, E, B,/ z/ | B, !3!F B, F | %6
+ A, E, A, E, | E, !2!B, E, E, | B, F B, F/ z/ :| z4 | z4 | B2 E2 |] %12
+
+
