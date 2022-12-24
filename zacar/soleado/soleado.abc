@@ -1,0 +1,20 @@
+X:1
+T:Soleado
+C:Zacar
+%%score ( 1 2 3 )
+L:1/8
+M:4/4
+I:linebreak $
+K:G
+V:1 treble-8 nm="Acoustic Guitar" snm="Guit."
+V:2 treble-8 
+V:3 treble-8 
+V:1
+ DGA |:"G" B4"D7" !2!AB!1!cA |"G" G4 z DGA |"G" !4!d4"C" e!2!feB |"D" !2!A6 z e/!4!d/ |$ %5
+"C" e/d/c- c2"D" !1!f!2!g!4!af |"G" !3!d4"Em" BB!2!AG |"D" !4!d4"C" ABcA |"G" G4 z DGA :| G4 |] %10
+V:2
+ x3 |: !3![G,G]4 D4 | D4 G,4 | [DG]4 D2 D2 | D3 D A,3 A, |$ !1!c G/- z/ G z D2 D2 | !2![G,G]4 E,4 | %7
+ [DA]4 !3!C2 D2 | D4 z4 :| D4 |] %10
+V:3
+ x3 |: x8 | G,3 G, z4 | !3!G,3 G, z4 | x8 |$ !3!C3 C z4 | x8 | x8 | G,3 G, G,2 z2 :| G,3 z |] %10
+
