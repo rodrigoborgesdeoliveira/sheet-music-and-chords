@@ -1,0 +1,22 @@
+X:1
+T:Study 2
+C:Composer / arranger
+%%score ( 1 2 )
+L:1/8
+Q:1/4=80
+M:3/4
+I:linebreak $
+K:G
+V:1 treble-8 nm="Classical Guitar" snm="Guit."
+V:2 treble-8 
+L:1/4
+V:1
+ (3eBG (3!4!gBG (3gBG | (3!4!g!1!c!2!A (3!3!fcA (3fcA |$"^II" (3!4!a!3!^dA (3!2!gdA (3!1!fdA | %3
+ (3!4!bBG (3bBG (3bBG | (3eBG (3!4!gBG (3gBG |$ (3!4!g!1!c!2!A (3!3!fcA (3fcA | %6
+"^II" (3!4!a!3!^dA (3!2!gdA (3!1!fdA | e2 [GBe]2 z2 ::$ (3eBG (3!3!gBG (3!3!bBG | %9
+"^V" (3!3!b!1!e!1!c (3!1!aec (3!4!c'ec |$ (3!3!f!1!c!2!A (3!4!gcA (3!4!a!1!d!3!c | %11
+ (3!4!a!0!B!0!G (3!2!gBG (3!4!bBG | (3eBG (3!4!gBG (3gBG |$ (3!4!g!1!c!2!A (3!3!fcA (3fcA | %14
+"^II" (3!4!a!3!^dA (3!2!gdA (3!1!fdA | e2"^harm 12" [gbe']2 z2 :| %16
+V:2
+ E,3 | A,3 |$ !1!B,3 | E,3 | E,3 |$ A,3 | !1!B,3 | E,2 z ::$ E,3 | A,3 |$ D3 | !1!G,3 | E,3 |$ %13
+ A,3 | !1!B,3 | E,2 z :| %16
