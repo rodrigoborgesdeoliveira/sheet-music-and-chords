@@ -1,0 +1,31 @@
+X:1
+T:Sons de Carrilhões
+C:João Pernambuco
+%%score ( 1 2 )
+L:1/16
+Q:1/4=70
+M:2/4
+I:linebreak $
+K:D
+V:1 treble-8 nm="Classical Guitar" snm="Guit."
+V:2 treble-8 
+V:1
+"_ to D" z"^1/2C7" !4!d'df |:S !3!c'4- c'b!4!a!2!g | B4- BB!3!c!4!d |$"^1/2C5" !4!f4- feae | %4
+ B4- B!1!a!4!f!3!d | !0!BA(FD) !3!F2!3!=F2 |$ E[GB]2[GB]- [GB]B!3!c!4!d |"^1/2C5" !4!f4- feaf | %8
+ B4- B"^1/2C7"d'df |$ c'4- c'bag | B4- BBc!4!d |"^1/2C5" !4!f4- feaf |$ B4- B!1!A(!3!F!0!D) | %13
+ (!1!^D!4!F)!2!A!1!=c !4!^d!4!f!1!!1!a!3!b |{!1!a-!3!b} !1!a!4!g!0!e!0!B !0!G!3!E(!2!B,!1!_B,) |$ %15
+ A,!1!A!3!F!0!D [EGB]2[EGc]2 |1 [Fd]4 z d'df :|2 [Fd]4 !1!!4![dfd']4!fine! |]:$ %18
+[K:G] [GBd][GBd]2[GBd] [GB^d]2[GBd]2 | !3!f4- f!4!c'fc' | %20
+"^1/2C5" [cfc'][cfc']2[cfc'] [cfc']2[cfc']2 |"^1/2C7" !4!d'4- d'b!4!e'!4!d' |$ bgdB GBdd' | %23
+{!3!^c'-!4!d'} !3!c'ba^g =gfed |{d} f4- f"^C5"ea!4!f | !4!e4 d4 |$ [GBd][GBd]2[GBd] [GB^d]2[GBd]2 | %27
+"^C5" f4- fc'fc' | [cfc']2[cfc'][cfc'] [cec']2[cec']2 |$"^1/2C7" !4!d'4- d'!1!be'!2!d' | %30
+ !4!b!1!^g!0!e!3!d !0!B!1!^G(!2!E!0!D) | C!2!E!3!A!1!c _E!3!!courtesy!=G!1!_B!2!_e |$ %32
+ D!4!G!2!!courtesy!=B!1!d [Fce]2[Fcd]2 |1 [GBg]4 z4 :|2 [GBg]4 z d'df!D.S.! || %35
+V:2
+ x4 |: D,[df]2[df] A,4 | !1!E,!2!!0![EG]2[EG] E,4 |$ A,!1!!2![Gc]2[Gc] A,4 | %4
+ D,!3!!1![FA]2[FA] D,4 | z4 !2!F,2!2!=F,2 |$ E,4 E,4 | A,[Gc]2[Gc] A,4 | D,[FA]2[FA] A,4 |$ %9
+ D,[df]2[df] A,4 | D,[EG]2[EG] E4 | A,[Gc]2[Gc] A,4 |$ D,[FA]2[FA] D,4 | x8 | x8 |$ %15
+ !0!A,4 E,2A,2 |1 !0!D,A,2A, A,4 :|2 D,4 D4 |]:$[K:G] G,4 G,4 | A,!2!!1![Ac]2[Ac] D,4 | D4 D,4 | %21
+ !3!B!1!!2![dg]2[dg] [dg]4 |$ x8 | x8 | A,[Gc]2[Gc] A,4 | D,!3![Fc]2[Fc] A,2[Fc]2 |$ G,4 G,4 | %27
+ A,[Ac]2[Ac] D,4 | D4 D,4 |$ B[dg]2[dg] [dg]4 | x8 | !4!C4 !4!_E4 |$ !3!D4 D,4 |1 G,D2D D2D2 :|2 %34
+ G,4 z4 || %35
