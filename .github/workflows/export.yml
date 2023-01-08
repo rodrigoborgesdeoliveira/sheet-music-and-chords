@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - main
+      - export-action
     types:
       - ready_for_review
     paths:
@@ -29,8 +30,9 @@ jobs:
       # For each changed file, export it to pdf using mscore-portable -o 'My Score.pdf' 'My Score.mscz'
       - name: Export each file to PDF
         run: |
+          ./MuseScore-4.0.0-x86_64.AppImage -v
           for file in ${{ steps.changed-mscz-files.outputs.all_changed_files }}; do
-            
+            echo "$file was changed"
           done
 
       # Add pdf to the PR
