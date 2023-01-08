@@ -17,8 +17,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Install MuseScore 4
-        run: wget https://github.com/musescore/MuseScore/releases/download/v4.0/MuseScore-4.0.0-x86_64.AppImage
+      - name: Install MuseScore 3
+        run: |
+          apt update
+          apt install --yes musescore3
 
       - name: Get changed .mscz files
         id: changed-mscz-files
@@ -27,12 +29,19 @@ jobs:
           files: |
             *.mscz
 
-      # For each changed file, export it to pdf using mscore-portable -o 'My Score.pdf' 'My Score.mscz'
       - name: Export each file to PDF
         run: |
-          ./MuseScore-4.0.0-x86_64.AppImage -v
+          # Allow musescore to run without a GUI
+          export QT_QPA_PLATFORM=offscreen
+
           for file in ${{ steps.changed-mscz-files.outputs.all_changed_files }}; do
-            echo "$file was changed"
+            # Break the file by its extension, e.g. anonymous/andante/andante.mscz becomes [anonymous/andante/andante, mscz]
+            IFS='.'
+            read -a file_parts <<<"$file"
+
+            pdf_path="${file_parts[0]}.pdf"
+
+            musescore3 -o $pdf_path $file
           done
 
       # Add pdf to the PR
