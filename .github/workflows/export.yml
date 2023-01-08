@@ -1,0 +1,37 @@
+name: Export .pdf
+
+on: 
+  pull_request:
+    branches:
+      - main
+    types:
+      - ready_for_review
+    paths:
+      - '**.mscz'
+      
+jobs:
+  export-pdf:
+    name: Export .pdf
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install MuseScore 4
+        run: wget https://github.com/musescore/MuseScore/releases/download/v4.0/MuseScore-4.0.0-x86_64.AppImage
+
+      - name: Get changed .mscz files
+        id: changed-mscz-files
+        uses: tj-actions/changed-files@v35
+        with:
+          files: |
+            *.mscz
+
+      # For each changed file, export it to pdf using mscore-portable -o 'My Score.pdf' 'My Score.mscz'
+      - name: Export each file to PDF
+        run: |
+          for file in ${{ steps.changed-mscz-files.outputs.all_changed_files }}; do
+            
+          done
+
+      # Add pdf to the PR
+  
