@@ -25,9 +25,6 @@ jobs:
       - name: Get changed .mscz files
         id: changed-mscz-files
         uses: tj-actions/changed-files@v35
-        with:
-          files: |
-            *.mscz
 
       - name: Export each file to PDF
         run: |
@@ -40,9 +37,11 @@ jobs:
             IFS='.'
             read -a file_parts <<<"$file"
 
-            pdf_path="${file_parts[0]}.pdf"
+            if [[ ${file_parts[1]} == "mscz" ]]; then
+              pdf_path="${file_parts[0]}.pdf"
 
-            musescore3 -o $pdf_path $file
+              musescore3 -o $pdf_path $file
+            fi
           done
 
       - name: Commit to PR
