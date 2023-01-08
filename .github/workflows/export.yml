@@ -35,7 +35,8 @@ jobs:
           export QT_QPA_PLATFORM=offscreen
 
           for file in ${{ steps.changed-mscz-files.outputs.all_changed_files }}; do
-            # Break the file by its extension, e.g. anonymous/andante/andante.mscz becomes [anonymous/andante/andante, mscz]
+            # Break the file by its extension, e.g. anonymous/andante/andante.mscz
+            # becomes [anonymous/andante/andante, mscz]
             IFS='.'
             read -a file_parts <<<"$file"
 
@@ -44,5 +45,11 @@ jobs:
             musescore3 -o $pdf_path $file
           done
 
-      # Add pdf to the PR
+      - name: Commit to PR
+        uses: peter-evans/create-pull-request@v4
+        with:
+          add-paths: |
+            *.pdf
+          commit-message: Add .pdf
+          branch: ${{ github.ref_name }}
   
