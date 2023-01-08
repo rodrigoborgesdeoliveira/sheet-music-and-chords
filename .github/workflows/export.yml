@@ -19,8 +19,8 @@ jobs:
 
       - name: Install MuseScore 3
         run: |
-          apt update
-          apt install --yes musescore3
+          sudo apt update
+          sudo apt install --yes musescore3
 
       - name: Get changed .mscz files
         id: changed-mscz-files
