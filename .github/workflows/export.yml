@@ -17,47 +17,42 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Log contexts
+      - name: Install MuseScore
         run: |
-          echo "github.ref_name: ${{ github.ref_name }}"
-          echo "github.head_ref: ${{ github.head_ref }}"
+          wget https://github.com/musescore/MuseScore/releases/download/v4.0/MuseScore-4.0.0.dmg
+          sudo hdiutil attach MuseScore-4.0.0.dmg
+          sudo cp -R /Volumes/MuseScore-4.0.0/MuseScore\ 4.app /Applications
+          sudo hdiutil unmount /Volumes/MuseScore-4.0.0/
 
-      # - name: Install MuseScore
-      #   run: |
-      #     wget https://github.com/musescore/MuseScore/releases/download/v4.0/MuseScore-4.0.0.dmg
-      #     sudo hdiutil attach MuseScore-4.0.0.dmg
-      #     sudo cp -R /Volumes/MuseScore-4.0.0/MuseScore\ 4.app /Applications
-      #     sudo hdiutil unmount /Volumes/MuseScore-4.0.0/
+      - name: Get changed .mscz files
+        id: changed-mscz-files
+        uses: tj-actions/changed-files@v35
 
-      # - name: Get changed .mscz files
-      #   id: changed-mscz-files
-      #   uses: tj-actions/changed-files@v35
+      - name: Export each file to PDF
+        run: |
+          # Allow musescore to run without a GUI
 
-      # - name: Export each file to PDF
-      #   run: |
-      #     # Allow musescore to run without a GUI
+          for file in ${{ steps.changed-mscz-files.outputs.all_changed_files }}; do
+            # Break the file by its extension, e.g. anonymous/andante/andante.mscz
+            # becomes [anonymous/andante/andante, mscz]
+            IFS='.'
+            read -a file_parts <<<"$file"
 
-      #     for file in ${{ steps.changed-mscz-files.outputs.all_changed_files }}; do
-      #       # Break the file by its extension, e.g. anonymous/andante/andante.mscz
-      #       # becomes [anonymous/andante/andante, mscz]
-      #       IFS='.'
-      #       read -a file_parts <<<"$file"
+            if [[ ${file_parts[1]} == "mscz" ]]; then
+              pdf_path="${file_parts[0]}.pdf"
 
-      #       if [[ ${file_parts[1]} == "mscz" ]]; then
-      #         pdf_path="${file_parts[0]}.pdf"
+              echo "Exporting $file to $pdf_path"
 
-      #         echo "Exporting $file to $pdf_path"
+              /Applications/MuseScore\ 4.app/Contents/MacOS/mscore -o 'test/music/test.pdf' 'test/music/test.mscz'
+            fi
+          done
 
-      #         /Applications/MuseScore\ 4.app/Contents/MacOS/mscore -o 'test/music/test.pdf' 'test/music/test.mscz'
-      #       fi
-      #     done
-
-      # - name: Commit to PR
-      #   uses: peter-evans/create-pull-request@v4
-      #   with:
-      #     add-paths: |
-      #       *.pdf
-      #     commit-message: Add .pdf
-      #     branch: ${{ github.ref_name }}
-      #     base: export-action
+      - name: Commit to PR
+        uses: peter-evans/create-pull-request@v4
+        with:
+          add-paths: |
+            *.pdf
+          commit-message: Add .pdf
+          branch: ${{ github.head_ref }}
+          base: export-action
   
