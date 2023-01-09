@@ -54,5 +54,5 @@ jobs:
             *.pdf
           commit-message: Add .pdf
           branch: ${{ github.ref_name }}
-          base: ${{ github.ref_name }}
+          base: export-action
   
