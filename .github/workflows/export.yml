@@ -21,10 +21,11 @@ jobs:
         run: |
           wget https://github.com/musescore/MuseScore/releases/download/v4.0/MuseScore-4.0.0.dmg
           sudo hdiutil attach MuseScore-4.0.0.dmg
+          sudo cp -R /Volumes/MuseScore-4.0.0/MuseScore\ 4.app /Applications
+          sudo hdiutil unmount /Volumes/MuseScore-4.0.0/
           
           echo "Testing mscore"
-          export QT_QPA_PLATFORM=offscreen
-          /Volumes/MuseScore-4.0.0/MuseScore\ 4.app/Contents/MacOS/mscore -v
+          /Applications/MuseScore\ 4.app/Contents/MacOS/mscore -v
 
       - name: Get changed .mscz files
         id: changed-mscz-files
@@ -33,7 +34,6 @@ jobs:
       - name: Export each file to PDF
         run: |
           # Allow musescore to run without a GUI
-          export QT_QPA_PLATFORM=offscreen
 
           for file in ${{ steps.changed-mscz-files.outputs.all_changed_files }}; do
             # Break the file by its extension, e.g. anonymous/andante/andante.mscz
@@ -46,7 +46,7 @@ jobs:
 
               echo "Exporting $file to $pdf_path"
 
-              /Volumes/MuseScore-4.0.0/MuseScore\ 4.app/Contents/MacOS/mscore -o 'test/music/test.pdf' 'test/music/test.mscz'
+              /Applications/MuseScore\ 4.app/Contents/MacOS/mscore -o 'test/music/test.pdf' 'test/music/test.mscz'
             fi
           done
 
