@@ -23,9 +23,6 @@ jobs:
           sudo hdiutil attach MuseScore-4.0.0.dmg
           sudo cp -R /Volumes/MuseScore-4.0.0/MuseScore\ 4.app /Applications
           sudo hdiutil unmount /Volumes/MuseScore-4.0.0/
-          
-          echo "Testing mscore"
-          /Applications/MuseScore\ 4.app/Contents/MacOS/mscore -v
 
       - name: Get changed .mscz files
         id: changed-mscz-files
@@ -57,4 +54,5 @@ jobs:
             *.pdf
           commit-message: Add .pdf
           branch: ${{ github.ref_name }}
+          base: ${{ github.ref_name }}
   
