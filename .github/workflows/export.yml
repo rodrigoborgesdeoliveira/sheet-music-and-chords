@@ -43,7 +43,7 @@ jobs:
 
               echo "Exporting $file to $pdf_path"
 
-              /Applications/MuseScore\ 4.app/Contents/MacOS/mscore -o 'test/music/test.pdf' 'test/music/test.mscz'
+              /Applications/MuseScore\ 4.app/Contents/MacOS/mscore -o $pdf_path $file
             fi
           done
 
