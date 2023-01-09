@@ -13,14 +13,18 @@ on:
 jobs:
   export-pdf:
     name: Export .pdf
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
 
-      - name: Install MuseScore 3
+      - name: Install MuseScore
         run: |
-          sudo apt update
-          sudo apt install --yes musescore3
+          wget https://github.com/musescore/MuseScore/releases/download/v4.0/MuseScore-4.0.0.dmg
+          sudo hdiutil attach MuseScore-4.0.0.dmg
+          
+          echo "Testing mscore"
+          export QT_QPA_PLATFORM=offscreen
+          /Volumes/MuseScore-4.0.0/MuseScore\ 4.app/Contents/MacOS/mscore -v
 
       - name: Get changed .mscz files
         id: changed-mscz-files
@@ -40,7 +44,9 @@ jobs:
             if [[ ${file_parts[1]} == "mscz" ]]; then
               pdf_path="${file_parts[0]}.pdf"
 
-              musescore3 -o $pdf_path $file
+              echo "Exporting $file to $pdf_path"
+
+              /Volumes/MuseScore-4.0.0/MuseScore\ 4.app/Contents/MacOS/mscore -o 'test/music/test.pdf' 'test/music/test.mscz'
             fi
           done
 
