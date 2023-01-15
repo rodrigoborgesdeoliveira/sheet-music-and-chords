@@ -28,8 +28,6 @@ jobs:
 
       - name: Export each file to PDF
         run: |
-          # Allow musescore to run without a GUI
-
           for file in ${{ steps.changed-mscz-files.outputs.all_changed_files }}; do
             # Break the file by its extension, e.g. anonymous/andante/andante.mscz
             # becomes [anonymous/andante/andante, mscz]
@@ -41,7 +39,7 @@ jobs:
 
               echo "Exporting $file to $pdf_path"
 
-              /Applications/MuseScore\ 4.app/Contents/MacOS/mscore -o $pdf_path $file
+              /Applications/MuseScore\ 4.app/Contents/MacOS/mscore -o "$pdf_path" "$file"
             fi
           done
 
