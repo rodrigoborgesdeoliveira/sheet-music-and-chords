@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - export-musicxml-action
     paths:
       - '**.mscz'
 
