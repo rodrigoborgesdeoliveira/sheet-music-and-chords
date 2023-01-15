@@ -38,7 +38,7 @@ jobs:
             read -a file_parts <<<"$file"
 
             if [[ ${file_parts[1]} == "mscz" ]]; then
-              changed_file="${file_parts[0]}"
+              echo "changed_file=${file_parts[0]}" >> $GITHUB_ENV
               pdf_path="${file_parts[0]}.pdf"
 
               echo "Exporting $file to $pdf_path"
