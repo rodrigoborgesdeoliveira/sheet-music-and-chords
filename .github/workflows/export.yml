@@ -1,12 +1,10 @@
 name: Export .pdf
 
 on: 
-  pull_request:
+  push:
     branches:
       - main
       - export-action
-    types:
-      - ready_for_review
     paths:
       - '**.mscz'
       
