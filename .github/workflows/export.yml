@@ -7,7 +7,10 @@ on:
       - export-action
     paths:
       - '**.mscz'
-      
+
+env:
+  changed_file: ""
+
 jobs:
   export-pdf:
     name: Export .pdf
@@ -35,6 +38,7 @@ jobs:
             read -a file_parts <<<"$file"
 
             if [[ ${file_parts[1]} == "mscz" ]]; then
+              changed_file="${file_parts[0]}"
               pdf_path="${file_parts[0]}.pdf"
 
               echo "Exporting $file to $pdf_path"
@@ -49,6 +53,10 @@ jobs:
           add-paths: |
             *.pdf
           commit-message: Add .pdf
-          branch: ${{ github.head_ref }}
+          branch: export/${{ env.changed_file }}
           base: export-action
+          delete-branch: true
+          title: Export ${{ env.changed_file }}
+          body: Export ${{ env.changed_file }} to .pdf.
+          reviewers: ${{ github.repository_owner }}
   
