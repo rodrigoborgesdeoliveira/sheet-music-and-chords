@@ -1,0 +1,61 @@
+name: Export .pdf
+
+on: 
+  push:
+    branches:
+      - main
+    paths:
+      - '**.mscz'
+
+env:
+  changed_file: ""
+
+jobs:
+  export-pdf:
+    name: Export .pdf
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install MuseScore
+        run: |
+          wget https://github.com/musescore/MuseScore/releases/download/v4.0.1/MuseScore-4.0.1.230121751.dmg
+          sudo hdiutil attach MuseScore-4.0.1.230121751.dmg
+          sudo cp -R /Volumes/MuseScore-4.0.1/MuseScore\ 4.app /Applications
+          sudo hdiutil unmount /Volumes/MuseScore-4.0.1/
+
+      - name: Get changed .mscz files
+        id: changed-mscz-files
+        uses: tj-actions/changed-files@v35
+
+      - name: Export each file to PDF
+        run: |
+          for file in ${{ steps.changed-mscz-files.outputs.all_changed_files }}; do
+            # Break the file by its extension, e.g. anonymous/andante/andante.mscz
+            # becomes [anonymous/andante/andante, mscz]
+            IFS='.'
+            read -a file_parts <<<"$file"
+
+            if [[ ${file_parts[1]} == "mscz" ]]; then
+              echo "changed_file=${file_parts[0]}" >> $GITHUB_ENV
+              pdf_path="${file_parts[0]}.pdf"
+
+              echo "Exporting $file to $pdf_path"
+
+              /Applications/MuseScore\ 4.app/Contents/MacOS/mscore -o "$pdf_path" "$file"
+            fi
+          done
+
+      - name: Commit to PR
+        uses: peter-evans/create-pull-request@v4
+        with:
+          add-paths: |
+            *.pdf
+          commit-message: Add .pdf
+          branch: export/${{ env.changed_file }}
+          base: export-action
+          delete-branch: true
+          title: Export ${{ env.changed_file }}
+          body: Export ${{ env.changed_file }} to .pdf.
+          reviewers: ${{ github.repository_owner }}
+  
