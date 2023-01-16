@@ -51,7 +51,7 @@ jobs:
 
             if [[ ${file_parts[1]} == "mscz" ]]; then
               # Update the "changed_file" env
-              echo "changed_file=${file_parts[0]}" >> $GITHUB_ENV
+              echo "changed_file=${file_parts[0]}" >> "$GITHUB_ENV"
 
               pdf_path="${file_parts[0]}.pdf"
               musicxml_path="${file_parts[0]}.musicxml"
