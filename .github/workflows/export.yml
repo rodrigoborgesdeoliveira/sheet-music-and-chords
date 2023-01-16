@@ -1,4 +1,4 @@
-name: Export .pdf and .musicxml
+name: Export .pdf, .musicxml and .abc
 
 on: 
   push:
@@ -24,6 +24,11 @@ jobs:
           sudo cp -R /Volumes/MuseScore-4.0.1/MuseScore\ 4.app /Applications
           sudo hdiutil unmount /Volumes/MuseScore-4.0.1/
 
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
       - name: Get changed .mscz files
         id: changed-mscz-files
         uses: tj-actions/changed-files@v35
@@ -36,18 +41,29 @@ jobs:
             IFS='.'
             read -a file_parts <<<"$file"
 
+            # Get the file path without the filename, e.g. anonymous/andante/andante.mscz
+            # becomes anonymous/andante
+            IFS='/'
+            read -a file_path <<< "$file"
+            unset 'file_path[${#file_path[@]}-1]'
+            file_path="${file_path[*]}"
+
             if [[ ${file_parts[1]} == "mscz" ]]; then
               # Update the "changed_file" env
               echo "changed_file=${file_parts[0]}" >> $GITHUB_ENV
 
               pdf_path="${file_parts[0]}.pdf"
               musicxml_path="${file_parts[0]}.musicxml"
+              abc_path="$file_path"
 
               echo "Exporting $file to $pdf_path"
               /Applications/MuseScore\ 4.app/Contents/MacOS/mscore -o "$pdf_path" "$file"
 
               echo "Exporting $file to $musicxml_path"
               /Applications/MuseScore\ 4.app/Contents/MacOS/mscore -o "$musicxml_path" "$file"
+
+              echo "Exporting $file to ${file_parts[0]}.abc"
+              npx -y https://wim.vree.org/js/xml2abc.tgz -o "$abc_path" "$musicxml_path"
             fi
           done
 
@@ -57,11 +73,12 @@ jobs:
           add-paths: |
             *.pdf
             *.musicxml
-          commit-message: Add .pdf and .musicxml
+            *.abc
+          commit-message: Add .pdf, .musicxml and .abc
           branch: export/${{ env.changed_file }}
           base: main
           delete-branch: true
           title: Export ${{ env.changed_file }}
-          body: Export ${{ env.changed_file }} to .pdf and .musicxml.
+          body: Export ${{ env.changed_file }} to .pdf, .musicxml and .abc.
           reviewers: ${{ github.repository_owner }}
   
