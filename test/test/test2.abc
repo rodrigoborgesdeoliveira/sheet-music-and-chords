@@ -1,0 +1,17 @@
+X:1
+T:Andante
+C:Anonymous
+%%score ( 1 2 )
+L:1/4
+M:3/4
+I:linebreak $
+K:C
+V:1 treble nm="Classical Guitar" snm="Guit."
+L:1/8
+V:2 treble 
+V:1
+ z !2!A !open!B!1!c !open!B!2!A | z !3!d !0!e!1!f !0!e!3!d | z !open!B !1!c!3!d !1!c!open!B | %3
+ z !3!d !open!e!1!f !open!e!3!d |$ z !2!A !open!B!1!c !open!B!2!A | %5
+ z !3!d !open!e!1!f !open!e!3!d | z !open!B !3!d!1!c !open!B!1!c | !2!A6 :| %8
+V:2
+ !open!A,3 | !open!D3 | E,3 | A,3 |$ A,3 | D3 | E,3 | A,3 :| %8
