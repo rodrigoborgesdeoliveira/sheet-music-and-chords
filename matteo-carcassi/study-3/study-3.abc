@@ -1,0 +1,21 @@
+X:1
+T:Study 3
+C:Matteo Carcassi
+%%score ( 1 2 )
+L:1/4
+M:2/4
+I:linebreak $
+K:A
+V:1 treble-8 nm="Classical Guitar" snm="Guit."
+L:1/8
+V:2 treble-8 
+V:1
+ !0!e |: !1!!2![Ac]3 e | !3!!2![Bd]3 e | !1!!2![Ac]3 e | !1!!0![GB]3 e | !1!c!0!e !4!a!3!g |$ %6
+ !3!g!1!f !2!d!3!B |"^1/2C2" cA !0!B!1!G | !2!A2 z !0!e :: !4!^d!0!B BB | !0!eB BB | %11
+ !4!f!0!B !4!a!0!B |$ !4!g!0!B !0!e!0!B | !4!^d!0!B BB | !0!e!0!B BB | !0!B!3!^A !2!=A!4!F | %16
+ !1!E!4!e !3!^d!2!=d | !1!!2![Ac]3 e |$ !3!!2![Bd]3 e | !1!!2![Ac]3 e | !1!!0![GB]3 e | %21
+ !1!c!0!e !4!a!3!g | !3!g!1!f !2!d!3!B |"^1/2C2" cA !0!B!1!G |1 !2!A2 z !0!e :|2$ !2!A2 z2 |] %26
+V:2
+ z/ |: z/ !0!A,/ A, | z/ E,/ E, | z/ A,/ A, | z/ E,/ E, | !0!A,2 |$ !0!D2 | E E, | !0!A, z :: %9
+ !3!F2 | !1!G2 | !1!^D !1!F |$ !1!E !1!G | !3!F2 | !1!G2 | !1!B,2 | E,2 | z/ A,/ A, |$ z/ E,/ E, | %19
+ z/ A,/ A, | z/ E,/ E, | !0!A,2 | !0!D2 | E E, |1 A, z :|2$ A, z |] %26
