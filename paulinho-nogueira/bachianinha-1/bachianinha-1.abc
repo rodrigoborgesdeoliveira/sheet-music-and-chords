@@ -1,0 +1,56 @@
+X:1
+T:Bachianinha Nº 1
+C:Paulinho Nogueira
+%%score ( 1 2 3 4 )
+L:1/4
+Q:1/4=160
+M:2/4
+I:linebreak $
+K:C
+V:1 treble-8 nm="Classical Guitar" snm="Guit."
+L:1/8
+V:2 treble-8 
+V:3 treble-8 
+V:4 treble-8 
+V:1
+S !4!e!open!e !2!d!open!e | !2!ce !open!Be | Be ee | de cB |$ ce ee | ee ee | ee de | ce Be | %8
+ Be ee |$ de cB | ce ee | ce ee | Be ee | Be ee- |$ ee ee | ee ee ||"^1/2C5" z !1!c !1!ec!dacoda! | %17
+ z c (e!4!g) | !2!f c2 c |$ z c2 c | z !3!d2 d | z !3!f !1!gf |"^C8" z !3!c !2!ec | eg (c'!4!e') |$ %24
+"^C7" z !2!B !1!d!4!f | z !1!b !4!d'b |"^1/2C5" z c ec | z a bc' | z !3!d !2!fd |$"^C5" z !1!c2 c | %30
+ z !3!B2 B | z !3!B !2!dB | z !3!d !2!fd |"^C5" z c2 c | z !3!B2 B |$ z !3!B !2!dB | %36
+"^1/2C2" z A2 A | z A2 A | z !2!A2 z | z !2!A !4!dA |"^C4" z !1!B2 B |$ z B2 B | z !3!B2 B | %43
+ !3!a2 !3!b2 |"^1/2C5" z c2 c |"^C3" z !2!c2 c | z !3!d2 d |$ z !3!A2 z | z !2!E !3!AE | %49
+ z !2!E !1!^GE |: A,A ce | z !open!G !3!dG | z !open!G !1!c(!2!B,/A,/) |$ z !2!E !open!BE | %54
+ z E AE | z !3!F !2!AF | z !3!F2 z | z D2 D :| !4!Ae ee!D.S.!!D.S.! |:$O z !open!e ee | z e ee | %61
+ z e ee | z e ee | z !open!e ee | z !open!e2 e |$ z e ee | z e ee :| z !open!e ee | z e ee | %69
+ z e ee | z e2 e |$ z e ee | z e ee | z e ee | z e2 e | z e ee |$ z e ee | z e ee | z e ee | %79
+ z e ee | z e ee |$ z e ee | z e ee | z e ee | z e ee | z e ee |$ z e ee | z e ee | ee ee | %89
+ z e ee | ee ee!D.S.! ||$ !2!E!3!A !1!cA!fine! | E!1!^G !4!dG | EA cA | E^G dG |"^rall." !1!c2 BA | %96
+ !4!A3 !1!^G | !4!!3!!1![A,^CEA]4 |] %98
+V:2
+ !3!c !3!B | !3!A !2!A | !1![^GB]2 | B A/B/ |$ [Ac]2- | [Ac]2 | c B | A A | [^GB]2 |$ B A/B/ | %10
+ [Ac]2 | [Ac]2 | [AB]2 | [AB]2 |$ [^GB]2- | [GB]2 || !open!A,2 | C2 | A,2 |$ A,2 | !1!G2 | !2!B2 | %22
+ C2 | C2 |$ B,2 | !3![E^g]2 | !open!A,2 | [A,A]2 | !open!D2 |$ !2!^D2 | !1!E2 | E2 | !open!D2 | %33
+ !2!^D2 | !1!E2 |$ !open!=D2 | !3!^C2 | E2 | !open!D2 | D2 | !3!^D2 |$ ^F2 | !1!E2 | %43
+ !1!F/!2!B/ !1!^G/!2!d/ | !3!A2 | !1!C2 | !open!D2 |$ !2!B,2 | E,2 | E,2 |: A,2 | !1!B,2 | !3!C2 |$ %53
+ !4!^G,2 | A,2 | !1!B,2 | !1!F,2 | E,2 :| [A,A]2 |:$ !4!!1![Bc]2 | !2![Ac]2 | [Bc]2 | [Ac]2 | %63
+ !4!!1![AB]2 | !3![^GB] !2![^FB] |$ !3![^GB]2 | [^GB]2 :| !2!!1![FA]2 | !3![FB]2 | !4![Fc]2 | %70
+ [FB] [FA] |$ !2!!3![EA]2 | [E^G]2 | [FA]2 | !4![FB] [FA] | [EA]2 |$ [E^G]2 | [E^G]2 | [E^G]2 | %79
+ !open![D^G]2 | [D^G]2 |$ [D^G]2 | [D^G]2 | !2!!4![CB]2 | [CA]2 | [B,B]2 |$ [CA]2 | !2!!3![B,A]2- | %88
+ [B,A]2 | [E,^G]2- | [E,G]2 ||$ x2 | x2 | x2 | x2 | !2!!3![A,EA]2 | !2!!3![E,B,E]2 | x2 |] %98
+V:3
+ x2 | x2 | x2 | x2 |$ x2 | x2 | x2 | x2 | x2 |$ x2 | x2 | x2 | x2 | x2 |$ x2 | x2 || !4!c'2 | x2 | %18
+ z a |$ !3!b !4!c' | !4!b c' | !4!d'2 | !4!e'2 | x2 |$ !4!d'2 | x2 | !4!c'2 | x2 | !4!b2 |$ %29
+ z !1!a | !4!a !4!^g- | g2 | !4!b2 | z a | !4!a !4!^g |$ x2 | z !2!g | g !4!a | !4!g (!1!f/e/) | %39
+ !1!f2 | z !2!a |$ a !4!b | !4!a !4!^g | x2 | !4!c' !4!b | !3!a !4!b | !1!a !4!g |$ %47
+ !1!f !open!e/!4!d/ | !1!c2 | B2 |: x2 | !4!g2 | !open!e z |$ !open!e2 | c2 | !4!d2 | %56
+ !open!B"^C1" c/!4!d/ | !1!c2 :| x2 |:$ x2 | x2 | x2 | x2 | x2 | x2 |$ x2 | x2 :| x2 | x2 | x2 | %70
+ x2 |$ x2 | x2 | x2 | x2 | x2 |$ x2 | x2 | x2 | x2 | x2 |$ x2 | x2 | x2 | x2 | x2 |$ x2 | x2 | x2 | %89
+ x2 | x2 ||$ x2 | x2 | x2 | x2 | x2 | x2 | x2 |] %98
+V:4
+ x2 | x2 | x2 | x2 |$ x2 | x2 | x2 | x2 | x2 |$ x2 | x2 | x2 | x2 | x2 |$ x2 | x2 || x2 | x2 | %18
+ x2 |$ x2 | x2 | x2 | x2 | x2 |$ x2 | x2 | x2 | x2 | x2 |$ x2 | x2 | x2 | x2 | x2 | x2 |$ x2 | x2 | %37
+ x2 | x2 | x2 | x2 |$ x2 | x2 | x2 | x2 | x2 | x2 |$ x2 | x2 | x2 |: x2 | x2 | x2 |$ x2 | x2 | x2 | %56
+ x2 | z B :| x2 |:$ x2 | x2 | x2 | x2 | x2 | x2 |$ x2 | x2 :| x2 | x2 | x2 | x2 |$ x2 | x2 | x2 | %74
+ x2 | x2 |$ x2 | x2 | x2 | x2 | x2 |$ x2 | x2 | x2 | x2 | x2 |$ x2 | x2 | x2 | x2 | x2 ||$ x2 | %92
+ x2 | x2 | x2 | x2 | x2 | x2 |] %98
