@@ -1,0 +1,37 @@
+X:1
+T:Prelude
+C:J. S. Bach
+%%score ( 1 2 )
+L:1/4
+Q:1/4=80
+M:3/4
+I:linebreak $
+K:F
+V:1 treble-8 nm="Classical Guitar" snm="Guit."
+L:1/16
+V:2 treble-8 
+V:1
+ D!3!d!2!f!1!a fdfd AdFd | Ddfa fdfd AdFd |$ D!2!d!4!f!1!b gdgd BdGd | Ddgb gdgd BdGd | %4
+ D!4!^c!3!e!1!g ecec B!1!cGc |$ D^ceg ecec BcGc | D!2!A!4!d!1!f dAdA FADA | CAdf dAdA FADA |$ %8
+"^C1" B,!2!A!4!df dAdA F!2!ADA | A,!2!A!4!d!1!f dAdA FADA | ^G,!4!=B!2!d!1!f dBdB FBDB |$ %11
+ ^G,=Bdf dBdB ^G!0!BEB | A,!4!=B!1!c!0!e cBcB EBCB | A,!2!A!1!c!0!e cAcA CAA,A |$ %14
+ F,"^1/2C5"cea ecec A!1!cFc | D!1!=B!3!f!2!a fBfB D!3!B=B,B | E,!3!=B!2!d!4!^g dBdB EBB,B |$ %17
+ E,=Bd^g dBdB EB=B,B | E,"^1/2C5"cea ecec EcCc |"^1/2C7" E,d!3!^g=b gdgd FdDd |$ %20
+ E,!3!e!4!a!2!c' aeae AeEe | z"^1/2C9" e^g!2!d' gege =Be^Ge | E,"^1/2C9"_e!3!ac' aeae AeFe |$ %23
+ E,!3!d!2!f!4!=b fdfd ^GdEd | E,"^1/2C5"c!3!^fa fcfc ^Fc^Dc | E,!3!=B!2!d!4!a dBdB =FB=DB |$ %26
+ E,!3!=B!2!d!4!^g dBdB EB=B,B | E,"^1/2C1"!2!Ac!3!^f cAcA ^DACA | E,!1!^G!0!=B!2!=f BGBG =DG=B,G |$ %29
+ E,!2!A!1!ce cAcA CAA,A | E,!1!A!0!=B!2!d BABA FADA | E,!1!^G!0!=B!3!d BGBG EG=B,G |$ %32
+ A,!1!^G!0!=B!3!d BGBG FGDG | A,!1!A!0!=B!2!d"^1/2C2" ^cAcA EA^CA | A,!3!=B!2!d!4!^g dBdB FBDB |$ %35
+ A,"^1/2C7"d!3!^g=b gdgd FdDd | A,"^1/2C5"!2!^cea ecec AcEc | A,!4!^c!3!e!1!g ecec _BcGc |$ %38
+ A,!2!A!4!d!1!f dAdA FADA | A,"^1/2C1"^G!4!df dGdG FGDG |$ A,^G!4!df dGdG FGDG | %41
+ A,!3!A!4!^c!0!e cAce !1!f!4!d!0!=B!3!^g |"^1/2C2" !4![EA^ca]4 z4 z4 |] %43
+V:2
+ D z !2!A/!4!F/ | D z A/F/ |$ D z !3!B/!1!G/ | D z B/G/ | D z !2!B/!4!G/ |$ D z B/G/ | %6
+ !0!D z F/D/ | !3!C z !3!F/!0!D/ |$ B, z !3!F/!0!D/ | !0!A, z F/D/ | !3!^G, z !1!F/!0!D/ |$ %11
+ ^G, z !1!^G/!2!E/ | A, z !2!E/!3!C/ | !0!A, z !3!C/!0!A,/ |$ !1!F, z !2!A/!3!F/ | %15
+ D z !0!D/!1!=B,/ | E, z E/B,/ |$ E, z E/=B,/ | E, z !3!E/!4!C/ | E, z !2!F/!0!D/ |$ E, z A/E/ | %21
+ E, z =B/!3!^G/ | E, z !4!A/F/ |$ E, z !1!^G/!2!E/ | E, z !4!^F/!2!^D/ | E, z !1!=F/!0!=D/ |$ %26
+ E, z E/=B,/ | E, z ^D/!4!C/ | E, z !0!=D/!2!=B,/ |$ E, z !3!C/!0!A,/ | E, z !2!F/!0!D/ | %31
+ E, z !3!E/!2!=B,/ |$ A, z !3!F/!0!D/ | A, z E/!3!^C/ | A, z !1!F/!0!D/ |$ A, z !2!F/!0!D/ | %36
+ A, z !4!A/!3!E/ | A, z !2!_B/!4!G/ |$ A, z !3!F/!0!D/ | A, z !3!F/!0!D/ |$ A, z !3!F/!0!D/ | %41
+ A, z z | A, z z |] %43
