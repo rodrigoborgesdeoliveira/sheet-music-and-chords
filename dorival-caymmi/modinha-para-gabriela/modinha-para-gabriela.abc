@@ -1,0 +1,19 @@
+X:1
+T:Modinha para Gabriela
+C:Dorival Caymmi
+%%score ( 1 2 )
+L:1/4
+M:4/4
+I:linebreak $
+K:F
+V:1 treble-8 nm="Classical Guitar" snm="Guit."
+L:1/8
+V:2 treble-8 
+V:1
+ z2 AA dddA | c/B/c- c6 | z2 BB dddc | B A3- A4 | z2 DE FGAB |$ E G3- G4 | z2 EF GE A2- | %7
+ A2 G2 F2 E2 | E D3- D4 |:[K:D][M:2/4] z f/e/ d/cG/- |$ Ge/d/ c/BF/- | Fd/c/ B/AE/- | %12
+ EA/G/ F/ED/- | D/FA/ f/dA/- | A4- | AF/A/ d/Af/- |$ f/dA/- A2- | A4 :| %18
+V:2
+ D2 [DA]2 | [CE] E2 C | [G,DG]2 [G,DG]2 | z/ D3/2 D2 | z A, A, D |$ z/ [G,D]3/2 [B,D]2 | A,2 A,2 | %7
+ E,2 A,2 | z/ A,3/2 A,2 |:[K:D][M:2/4] D D |$ E, A, | D B, | E, A, | A, z | E, A, | A, B, |$ %16
+ E, A, | D A, :| %18
