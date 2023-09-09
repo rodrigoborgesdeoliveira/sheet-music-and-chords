@@ -1,0 +1,25 @@
+X:1
+T:Carinhoso
+C:Pixinguinha
+%%score ( 1 2 )
+L:1/8
+Q:1/4=72
+M:2/4
+I:linebreak $
+K:G
+V:1 treble-8 nm="Classical Guitar" snm="Guit."
+V:2 treble-8 
+L:1/16
+V:1
+ B/AG/ | B4 | z2 B/AG/ | B4 | z2 d/^cB/ |$ d4 | z2 d/^cB/ | f2 (3f^ef | a>g (3fea | e>d (3edg |$ %10
+ d>c (3cBe | B>A B/AG/ | B4 | z2 (3AGA | G2 z2 |:$ z2 f/g/f/e/ | d/e/d/^c/ B/c/B/A/ | %17
+ G/A/B/^c/ d/c/B/c/ | BF z2 | z2 B/^c/d/e/ |$ f/e/d/B/ A/B/^c/d/ | e/f/e/B/ d/^c/B/A/ | d2 ^d2 | %23
+ e2 f2 | g4 |$ z/ fe/ (3dBG | F4 | z ^A ^cf | e4 | z/ cB/ (3ABc |$ B2 (3z ^AB | g2 (3fgf | %32
+ e2 (3ded | cc (3BcB | A/B/c/d/ _e>g |$ g2 (3B^AB | d2 (3z AB | G2 z2 :| [G,B,DG]2 z2 |] %39
+V:2
+ x4 | DG2D ^DG2D | EG2E ^D4 | DG2D ^DG2D | EG2E =F4 |$ FB2F GB2G | ^GB2G =G4 | %7
+ F^c^AF [B,^D=AB]2 z2 | E,2[GB]2 [A,G^c]4 | DA2F C4 |$ E2>A2 [D^G]4 | C4 z4 | DG2D ^DG2D | %13
+ EG2E ^D4 | D4 (3[C_E]2[CE]2[CE]2 |:$ [G,B,DG]4 z4 | B,4 D4 | E4 F,4 | B,4 FGFE | DED^C B,4 |$ %20
+ A,4 F,4 | E4 A,4 | D2A2 C2A2 | A,2[Ac]2 D2[Ac]2 | G,d2B GD2B, |$ G,4 B,4 | ^A,2>F,2 A,^CEG | F8 | %28
+ A,2>A2 EA,2C | D4 F,4 |$ G,2>D2 B,4 | E,[GB]2[GB] B,4 | E[GB]2[GB] =F4 | E4 [D^G]4 | C2A,2 C4 |$ %35
+ G,dBG E,4 | A,A2E D4 | G,4 (3[C_EG]2[CEG]2[CEG]2 :| x8 |] %39
