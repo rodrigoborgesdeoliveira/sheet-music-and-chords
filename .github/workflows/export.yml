@@ -34,8 +34,10 @@ jobs:
         uses: tj-actions/changed-files@v41
 
       - name: Export each file
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-mscz-files.outputs.all_changed_files }}
         run: |
-          for file in ${{ steps.changed-mscz-files.outputs.all_changed_files }}; do
+          for file in "$ALL_CHANGED_FILES"; do
             # Break the file by its extension, e.g. anonymous/andante/andante.mscz
             # becomes [anonymous/andante/andante, mscz]
             IFS='.'
