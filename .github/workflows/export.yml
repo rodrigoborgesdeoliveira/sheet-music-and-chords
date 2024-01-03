@@ -31,7 +31,7 @@ jobs:
 
       - name: Get changed .mscz files
         id: changed-mscz-files
-        uses: tj-actions/changed-files@v35
+        uses: tj-actions/changed-files@v41
 
       - name: Export each file
         run: |
