@@ -19,10 +19,10 @@ jobs:
 
       - name: Install MuseScore
         run: |
-          wget https://github.com/musescore/MuseScore/releases/download/v4.1.1/MuseScore-4.1.1.232071203.dmg
-          sudo hdiutil attach MuseScore-4.1.1.232071203.dmg
-          sudo cp -R /Volumes/MuseScore-4.1.1/MuseScore\ 4.app /Applications
-          sudo hdiutil unmount /Volumes/MuseScore-4.1.1/
+          wget https://github.com/musescore/MuseScore/releases/download/v4.2.1/MuseScore-4.2.1.240230937.dmg
+          sudo hdiutil attach MuseScore-4.2.1.240230937.dmg
+          sudo cp -R /Volumes/MuseScore-4.2.1/MuseScore\ 4.app /Applications
+          sudo hdiutil unmount /Volumes/MuseScore-4.2.1/
 
       - name: Install Node.js
         uses: actions/setup-node@v3
