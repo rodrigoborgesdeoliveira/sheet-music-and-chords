@@ -1,0 +1,20 @@
+X:1
+T:Bolero
+C:Maurice Ravel
+L:1/16
+Q:1/4=80
+M:3/4
+I:linebreak $
+K:C
+V:1 treble-8 nm="Acoustic Guitar" snm="Guit."
+V:1
+"^(Trombone solo)" z12 |"^16" z12 | z12 | d6 ^cd edcB | d2dB d6 ^cd | BA^FG A8- |$ AG^FE FGAB A4- | %7
+ A4- AB^cB AG^FE | ^FE D4 DE F2G2 | E4 A8- | A12 |$ e4- e2>d2 ^cBcd | ed^c2- cdcB dcBG- | %13
+ G2GG G2B2 dB^cA | G2GG G2B2 ^cABG |$ E2ED E6 EE | E2G2 BGA^F E2ED | E4- E2ED E2^FG | A8- AG^FE | %19
+ D4 z8 | z12 |$ c4- cBAG cdBA | c2BA c4 BcBA- | A4- AG^FE F4- | F4 z2 c2 d2_e2- | e2 _e4 e2 e2e2 |$ %26
+ (3_e2e2e2 e2dc e2dc | _edc_B AG ^F6- | F12 | E6 ^F2 EFG2- | G4 A2_B2 (3G2A2^F2 |$ E^FED- D2 C6- | %32
+ CDCD E^FED EDC_B, | C_B,A,2- A,8- | A,8 z2 E2- | E6 ^F6 | E^F G6 A2^c2- |$ c4- cB^A^G AB^cd | %38
+ ^c4- cded cB^A^G | ^AB^c2- cded cBA^G | ^A^G ^F6 EDEF- |$ F8 GAG^F- | F8 EDE^F- | F8 ^G^AG^F- | %44
+ F8 E^FED- | (6:4:4D3AAA (6:4:4A3AAA A2A2 |$ (6:4:4A3AAA (6:4:4A3AAA (6:4:6AAAAAA | %47
+ (6:4:4A3AAA (6:4:4A3AAA A2A2 | (6:4:4A3AAA (6:4:4A3AAA (6:4:6AAAAAA |$ %49
+ (6:4:5z2 z (d^c=c- c4- (6:4:6c_BAGF_E | D2) z2 z8 |] %51
