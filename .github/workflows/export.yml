@@ -21,8 +21,8 @@ jobs:
         run: |
           wget https://github.com/musescore/MuseScore/releases/download/v4.4.2/MuseScore-Studio-4.4.2.242570931.dmg
           sudo hdiutil attach MuseScore-Studio-4.4.2.242570931.dmg
-          sudo cp -R /Volumes/MuseScore-4.4.2/MuseScore\ 4.app /Applications
-          sudo hdiutil unmount /Volumes/MuseScore-4.4.2/
+          sudo cp -R /Volumes/MuseScore-Studio-4.4.2/MuseScore\ 4.app /Applications
+          sudo hdiutil unmount /Volumes/MuseScore-Studio-4.4.2/
 
       - name: Install Node.js
         uses: actions/setup-node@v3
