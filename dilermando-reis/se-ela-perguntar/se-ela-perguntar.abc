@@ -1,0 +1,41 @@
+X:1
+T:Se Ela Perguntar
+C:Dilermando Reis
+%%score ( 1 2 3 )
+L:1/4
+Q:1/4=100
+M:3/4
+I:linebreak $
+K:G
+V:1 treble-8 nm="Classical Guitar" snm="Guit."
+L:1/8
+V:2 treble-8 
+V:3 treble-8 
+V:1
+ !2!e'!1!^d' |:S !4!f'3 !2!e' bg |"^C7"{f-g} fe ^de fg |"^C5" f3 z z2 |$ c'3 a fe | %5
+"^C4" !1!^d4 !4!f2 |"^C1" c4 e2 | B3 B, EG | ^F4 e'^d' |$ f'3 e' bg |{f-g} fe ^de fg |"^C2" f6 | %12
+"^C7"{/F} Bb ^c'd' c'b | !3!d'6 |$ d'^c' [_bd']e' [bd']c' | e'6 | ^d'4 e'^d' | f'3 e' bg | %18
+{f-g} fe ^de fg |${/e} !4!f6 | c'3 a fe | ^d4 f2 | c4 e2 | B6 |$ E,e (!1!=fe) (a!3!^g) | %25
+"^C5" [ceb]3 a c'b |"^C8"{/c'} d'3 c' e'^d' |{/^d'} f'3"^C7" e' bg |{f-g} fe ^de fe |$"^C8" g6 | %30
+"^C7" f3 e ^de | e6 |1"^harm\n  12" [GBe]4 e'^d' :|2"^harm\n  12" [GBe]2 z4!fine! ||$ %34
+ (B^A B^d fa) | g2 A2 ^d2 |"^C3" !4!f4 z2 | !4!e4 z2 |"^C4" [^GBe](^d eg bd') | %39
+ !3!c'2 !1!d2 !4!^g2 |$ !4!b6 | !2!a6 | (!4!f'!4!e' !1!c'!3!a !4!f!0!e) | cA ce d'^c' | %44
+"^C7" =c'6 |$ b6 |"^C6" _bb bb bb |"^C9" e'e' e'e' e'e' | ^d'd' d'd' d'd' |"^C7" c'c' c'c' c'c' |$ %50
+ B^A B^d fa | g2 A2 ^d2 | f6 | e6 | [^GBe]^d e^g !4!bd' |$ c'2 d2 ^g2 |"^C9" !4!b6 | !3!a6 | %58
+ !4!f'!4!e' !1!c'!3!a !4!f!0!e | cA ce !4!d'!3!^c' |$"^C7" =c'6 | b4 ^AB |"^C8" !2!g4 !4!a!2!g | %63
+"^C7" !2!f4 gf |"^C1" e6 |"^harm\n   12" !fermata![GBe]4 (e'^d')!D.S.! |] %66
+V:2
+ z |: E, !0![GB]2 | E,3 | z [Ac] [Ac] |$ A, [cf]2 | !3!^D !4!!2![Ac]2 | C !4!!2![FA]2 | G, [EG]2 | %8
+ C [A^d]2 |$ E, [GB]2 | E,3 | z [FBd] [FBd] |{/F,} B, z z | z [e_b] [eb] |$ !1!F e e | %15
+ z [g_b] [gb] | =B [^fa]2 | E, [GB]2 | E,3 |$ z [Ac] [Ac] | A, [d^f]2 | ^D [Ac]2 | C [FA]2 | %23
+ ^G, [E^G] [EG] |$ E, !4!!3![Bd] !4![Bd] | A, [ce]2 | A, [ea] [ea] | E, [GB]2 | E,3 |$ %29
+ z [^Ae] [Ae] | =C [A^d]2 | (E,/G,/ B,/E/ G/B/) |1 E,2 z :|2 E, z2 ||$ B,3 | A,3 | z [GB] [GB] | %37
+ z [GB] [GB] | ^G,3 | =F3 |$ z !2!!1![ce] [ce] | z [ce] [ce] | A,3 | C3 | E [eg] [eg] |$ %45
+ z [eg] [eg] | _B e f | F e ^a | B f a | A ^B f |$ B,3 | A,3 | G, [GB] [GB] | E, [GB] [GB] | %54
+ ^G,3 |$ =F3 | E, [ce] [ce] | z [ce] [ce] | A,3 | C3 |$ E [eg] [eg] | !4!G [eg]2 | ^C [^Ae]2 | %63
+ !3!C [A^d]2 | (E,/G,/) B,/E/ G/B/ | E,2 z |] %66
+V:3
+ x |: x3 | x3 | A,3 |$ x3 | x3 | x3 | x3 | x3 |$ x3 | x3 | B,3 | x3 | !2!G3 |$ x3 | !1!c3 | x3 | %17
+ x3 | x3 |$ A,3 | x3 | x3 | x3 | x3 |$ x3 | x3 | x3 | x3 | x3 |$ ^C3 | x3 | x3 |1 x3 :|2 x3 ||$ %34
+ x3 | x3 | G,3 | E,3 | x3 | x3 |$ E,3 | A,3 | x3 | x3 | x3 |$ G3 | x3 | x3 | x3 | x3 |$ x3 | x3 | %52
+ x3 | x3 | x3 |$ x3 | x3 | A,3 | x3 | x3 |$ x3 | x3 | x3 | x3 | x3 | x3 |] %66
